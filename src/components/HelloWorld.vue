@@ -79,13 +79,13 @@ export default {
         { key: 'application/x-www-form-urlencoded', value: 'form' },
         { key: 'application/json', value: 'json' }
       ],
-      requestEnv: 'http://127.0.0.1:8084',
+      requestEnv: 'http://11.221.161.13:8084',
       envOptions: [
-        { key: 'LOCAL', value: 'http://127.0.0.1:8084' },
         { key: 'DEV', value: 'http://11.221.161.13:8084' },
         { key: 'SIT', value: 'http://11.215.122.3:8084' },
         { key: 'UAT', value: 'http://11.215.122.81:8084' },
-        { key: 'PRE', value: 'http://11.215.122.205:8084' }
+        { key: 'PRE', value: 'http://11.215.122.205:8084' },
+        { key: 'LOCAL', value: 'http://127.0.0.1:8084' }
       ],
       requestMethod: 'get',
       methodOptions: [
